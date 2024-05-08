@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-cameronjames-djangoblog-mv0o0745tra.ws-us110.gitpod.io',
+ALLOWED_HOSTS = ['8000-cameronjames-djangoblog-n7bonvdj7m5.ws-us110.gitpod.io',
                  '.herokuapp.com']
 
 
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'django_summernote',
+    'about',
 ]
 
 MIDDLEWARE = [
@@ -96,7 +97,8 @@ DATABASES = {
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
-    "https://8000-cameronjames-djangoblog-mv0o0745tra.ws-us110.gitpod.io"
+    "https://8000-cameronjames-djangoblog-mv0o0745tra.ws-us110.gitpod.io",
+    "https://8000-cameronjames-djangoblog-n7bonvdj7m5.ws-us110.gitpod.io",
 ]
 
 # Password validation
